@@ -15,6 +15,13 @@
         android:theme="@style/Theme.AppEsg"
         tools:targetApi="31">
         <activity
+            android:name=".AtividadeSalva"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".CadastrarAtividade"
             android:exported="false">
             <meta-data

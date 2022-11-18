@@ -83,8 +83,8 @@
                     android:layout_alignParentRight="true"
                     android:layout_marginRight="8dp"
                     android:layout_marginTop="10dp"
-                    android:maxHeight="100dp">
-<!--                    android:src="@drawable/ic_horta">-->
+                    android:maxHeight="100dp"
+                    android:src="@drawable/ic_horta">
                 </ImageView>
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
@@ -139,8 +139,8 @@
                     android:layout_alignParentRight="true"
                     android:layout_marginRight="8dp"
                     android:layout_marginTop="12dp"
-                    android:maxHeight="100dp">
-<!--                    android:src="@drawable/ic_banho">-->
+                    android:maxHeight="100dp"
+                    android:src="@drawable/ic_banho">
                 </ImageView>
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
@@ -195,8 +195,8 @@
                     android:layout_alignParentRight="true"
                     android:layout_marginRight="8dp"
                     android:layout_marginTop="10dp"
-                    android:maxHeight="100dp">
-<!--                    android:src="@drawable/ic_study">-->
+                    android:maxHeight="100dp"
+                    android:src="@drawable/ic_study">
                 </ImageView>
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
@@ -252,8 +252,8 @@
                     android:layout_alignParentRight="true"
                     android:layout_marginTop="10dp"
                     android:layout_marginRight="10dp"
-                    android:maxHeight="100dp">
-<!--                    android:src="@drawable/ic_bus">-->
+                    android:maxHeight="100dp"
+                    android:src="@drawable/ic_bus">
                 </ImageView>
             </RelativeLayout>
         </androidx.cardview.widget.CardView>

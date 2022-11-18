@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".AtividadeSalva">
+    <TextView
+        android:id="@+id/txv_titulo_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daily ESG"
+        android:textColor="@color/green"
+        android:fontFamily="@font/comfortaa_bold"
+        android:textSize="32sp"
+        />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/comfortaa_bold"
+        android:text="ATIVIDADE SALVA COM SUCESSO!"
+        android:textColor="@color/green"
+        android:textSize="18sp"
+         />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/ic_baseline_task_alt_24"
+        android:layout_gravity="center">
+
+    </ImageView>
+</LinearLayout>
