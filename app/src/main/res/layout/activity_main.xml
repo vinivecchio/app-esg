@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txv_titulo_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daily ESG"
+        android:layout_margin="24dp"
+        android:textColor="@color/green"
+        android:fontFamily="@font/comfortaa_bold"
+        android:textFontWeight="700"
+        android:textSize="32sp"
+        />
+    <TextView
+        android:id="@+id/txv_titulo_cadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Login"
+        android:fontFamily="@font/comfortaa_bold"
+        android:textColor="@color/green"
+        android:textSize="32sp"
+        android:layout_marginTop="96dp"
+        />
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:id="@+id/ipt_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="32dp"
+        app:boxStrokeColor="@color/green"
+        app:hintTextColor="@color/green"
+        app:boxStrokeWidth="3dp"
+        android:hint="Email"
+        app:startIconDrawable="@drawable/ic_email"
+        app:helperText="Obrigatório*"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:id="@+id/ipt_senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="16dp"
+        android:hint="Senha"
+        app:boxStrokeColor="@color/green"
+        app:hintTextColor="@color/green"
+        app:startIconDrawable="@drawable/ic_lock"
+        app:endIconMode="password_toggle"
+        app:boxStrokeWidth="3dp"
+        app:helperText="Obrigatório*"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_senha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_ver_atividades"
+        android:backgroundTint="@color/green"
+        android:onClick="goToMyActivities"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:fontFamily="@font/comfortaa_light"
+        android:textFontWeight="700"
+        android:textSize="14dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+    />
+
+</LinearLayout>
